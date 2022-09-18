@@ -1,0 +1,159 @@
+
+
+.imagem-cabecalho{
+    width: 100%;
+    height: 400px;
+}
+
+.titulo-maior{
+    position: absolute;
+    top: 20%;
+    right: 35%;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'poppins', sans-serif;
+}
+
+.nome-titulo {
+    font-weight: 800;
+}
+
+.info-texto-sobre{
+    width: 50%;
+}
+
+.sobre-mim{
+    padding: 3em 0;
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+
+}
+
+.titulo-sobre-mim{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 44px;
+}
+
+.foto-tais{
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+
+
+nav {
+	position: absolute;
+	top: 52px;
+	right: 141px;
+    
+    
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 106px;
+    
+}
+
+nav a {
+	font-weight: 300;
+	font-size: 18px;
+	text-decoration: none;
+    color: #ffffff;
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav a:hover {
+	color: #f09253;
+	text-decoration: underline;
+}
+
+.tipos-conhecimentos{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 56px;
+
+
+}
+
+.titulo-conhecimentos{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+}
+
+.html, .css, .javascript{
+    display: inline-block;
+    text-align: center;
+    width: 17%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #de7171;
+    border-radius: 2px;
+}
+
+.conhecimentos p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 300; 
+    color: #717171;
+}
+
+.contato{
+    display: flex;
+    margin-top: 180px;
+    
+}
+
+.texto-contato {
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meios-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.meios-contato img {
+    width: 40px;
+    height: 30px;
+}
+
+.titulo-contato{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 44px;
+}
+
+.lista-contato li{
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    display: flex;
+    padding: 12px;
+}
+
+.lista-contato li p, .lista-contato li a {
+    margin-left: 20px;
+}
