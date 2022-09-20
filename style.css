@@ -1,159 +1,290 @@
-
-
-.imagem-cabecalho{
-    width: 100%;
-    height: 400px;
+/* cabeçalho */
+.imagem-cabecalho {
+  width: 100%;
+  height: 400px;
 }
 
-.titulo-maior{
-    position: absolute;
-    top: 20%;
-    right: 35%;
-    color: #ffffff;
-    font-size: 60px;
-    font-family: 'poppins', sans-serif;
+.titulo-maior {
+  position: absolute;
+  top: 20%;
+  right: 35%;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "poppins", sans-serif;
 }
 
 .nome-titulo {
-    font-weight: 800;
+  font-weight: 800;
 }
-
-.info-texto-sobre{
-    width: 50%;
-}
-
-.sobre-mim{
-    padding: 3em 0;
-    width: 100%;
-    margin: 0 auto;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    font-family: 'poppins', sans-serif;
-    font-weight: 300;
-    line-height: 30px;
-
-}
-
-.titulo-sobre-mim{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'poppins', sans-serif;
-    font-weight: 800;
-    margin-bottom: 44px;
-}
-
-.foto-tais{
-    float: left;
-    margin: 0 20px 20px 0;
-}
-
-
-
 
 nav {
-	position: absolute;
-	top: 52px;
-	right: 141px;
-    
-    
+  position: absolute;
+  top: 52px;
+  right: 141px;
 }
 
 nav li {
-	display: inline;
-	margin: 0 0 0 106px;
-    
+  display: inline;
+  margin: 0 0 0 106px;
 }
 
 nav a {
-	font-weight: 300;
-	font-size: 18px;
-	text-decoration: none;
-    color: #ffffff;
-    font-family: 'poppins', sans-serif;
-
+  font-weight: 300;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "poppins", sans-serif;
 }
 
 nav a:hover {
-	color: #f09253;
-	text-decoration: underline;
+  color: #f09253;
+  text-decoration: underline;
 }
 
-.tipos-conhecimentos{
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    margin-top: 56px;
+/* sobre mim */
 
-
+.info-texto-sobre {
+  width: 50%;
 }
 
-.titulo-conhecimentos{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'poppins', sans-serif;
-    font-weight: 800;
+.sobre-mim {
+  padding: 3em 0;
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
 }
 
-.html, .css, .javascript{
-    display: inline-block;
-    text-align: center;
-    width: 17%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #de7171;
-    border-radius: 2px;
+.info-texto-sobre p {
+  margin-top: 30px;
+  color: #342b2b;
 }
 
-.conhecimentos p{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'poppins', sans-serif;
-    font-weight: 300; 
-    color: #717171;
+.titulo-sobre-mim {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 800;
+  margin-bottom: 44px;
+  color: #342b2b;
 }
 
-.contato{
-    display: flex;
-    margin-top: 180px;
-    
+.sublinhado1 {
+  color: #717171;
+  width: 15%;
+  border-bottom: 3px solid #721e43;
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 270px;
+}
+
+.foto-tais {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+h3 {
+  font-family: "poppins", sans-serif;
+  font-weight: 800;
+  color: #4e1939;
+  font-size: 1rem;
+}
+
+/* conhecimentos */
+
+.conhecimentos {
+  margin-top: 12px;
+}
+
+.tipos-conhecimentos {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 56px;
+}
+
+.titulo-conhecimentos {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 800;
+}
+
+.sublinhado2 {
+  color: #717171;
+  width: 15%;
+  border-bottom: 3px solid #721e43;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 650px;
+}
+
+.html,
+.css,
+.javascript {
+  display: inline-block;
+  text-align: center;
+  width: 17%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #a23f7c;
+  border-radius: 2px;
+}
+
+.html:hover {
+  border-color: #a23f7c;
+  background: #ffe9e9;
+}
+
+.css:hover {
+  border-color: #a23f7c;
+  background: #ffe9e9;
+}
+
+.javascript:hover {
+  border-color: #a23f7c;
+  background: #ffe9e9;
+}
+
+.conhecimentos p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+  color: #717171;
+}
+
+/* contato */
+
+.contato {
+  display: flex;
+  margin-top: 180px;
 }
 
 .texto-contato {
-    width:50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .meios-contato {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .meios-contato img {
-    width: 40px;
-    height: 30px;
+  width: 40px;
+  height: 30px;
 }
 
-.titulo-contato{
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'poppins', sans-serif;
-    font-weight: 800;
-    margin-bottom: 44px;
+.titulo-contato {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 800;
+  margin-bottom: 44px;
 }
 
-.lista-contato li{
-    font-family: 'poppins', sans-serif;
-    font-weight: 300;
+.sublinhado3 {
+  color: #717171;
+  width: 10%;
+  border-bottom: 3px solid #721e43;
+  position: absolute;
+  margin-top: 28px;
+  margin-left: 15px;
+}
+
+.lista-contato li {
+  font-family: "poppins", sans-serif;
+  font-weight: 300;
+  display: flex;
+  padding: 12px;
+}
+
+.lista-contato li p,
+.lista-contato li a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000000d2;
+}
+
+/* Rodapé */
+
+footer {
+  background: #a288a6;
+  width: 100%;
+  height: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .imagem-cabecalho {
+    /* width: auto; */
+    height: 370px;
+  }
+
+  .titulo-maior {
+    position: absolute;
+    top: 29%;
+    right: 0%;
+    color: #ffffff;
+    font-size: 54px;
+    font-family: "poppins", sans-serif;
+    margin-left: 11px;
+  }
+
+  nav {
+    position: absolute;
+    top: 52px;
+    right: 106px;
+    margin-bottom: 10px;
+  }
+
+  nav li {
+    display: block;
+    margin: 0 0 17px 0px;
+  }
+
+  .sobre-mim {
     display: flex;
-    padding: 12px;
+    flex-direction: column;
+    height: 935px;
+  }
+
+  .foto-tais {
+    margin: 0px;
+  }
+
+  .info-texto-sobre {
+    width: 100%;
+    text-align: center;
 }
 
-.lista-contato li p, .lista-contato li a {
-    margin-left: 20px;
+.tipos-conhecimentos {
+    display: flex;
+    flex-direction: column;
+}
+
+.html, .css, .javascript {
+    width: 100%;
+    margin: 0px;
+}
+.mapa{
+    width: 100%;
+}
+
+    .contato {
+        display: flex;
+        margin-top: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
