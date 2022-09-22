@@ -41,7 +41,15 @@ nav a:hover {
   text-decoration: underline;
 }
 
+main{
+  background: linear-gradient(#ffe9f8, #fcf6fa);
+}
+
 /* sobre mim */
+
+main{
+  background: linear-gradient(#f8dcef, #fcf6fa);
+}
 
 .info-texto-sobre {
   width: 50%;
@@ -61,7 +69,7 @@ nav a:hover {
 
 .info-texto-sobre p {
   margin-top: 30px;
-  color: #342b2b;
+  color: #141313;
 }
 
 .titulo-sobre-mim {
@@ -210,7 +218,7 @@ nav a:hover {
 /* Rodapé */
 
 footer {
-  background: #a288a6;
+  background: #937DC2;
   width: 100%;
   height: 100px;
 }
