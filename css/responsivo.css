@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
     .imagem-cabecalho {
       /* width: auto; */
       height: 370px;
@@ -6,19 +6,24 @@
   
     .titulo-maior {
       position: absolute;
-      top: 28%;
-      right: 0%;
+      top: 32%;
+      right: 22%;
       color: #ffffff;
-      font-size: 32px;
+      font-size: 26px;
       font-family: "poppins", sans-serif;
       margin-left: 54px;
-      width: 100%;
+      /* width: 100%; */
     }
+
+    .subtitulo-cabecalho {
+      display: none;
+    
+      }
   
     nav {
       position: absolute;
       top: 52px;
-      right: 106px;
+      right: 17px;
       margin-bottom: 10px;
     }
   
@@ -38,7 +43,7 @@
     }
    
     .foto-tais {
-      margin: 10px;
+      margin: 46px;
     }
   
     .info-texto-sobre {
@@ -79,12 +84,3 @@
    }
   }
   
-  /* @media screen and (max-width: 912px){
-  .titulo-conhecimentos{
-      margin-top: 5rem;
-  }
-  .tipos-conhecimentos{
-      margin-left: -6rem;
-      width: 64rem;
-  }
-  } */

@@ -20,7 +20,7 @@
 nav {
   position: absolute;
   top: 52px;
-  right: 141px;
+  right: 120px;
 }
 
 nav li {
@@ -71,15 +71,15 @@ nav a:hover {
   font-weight: 800;
   margin-bottom: 44px;
   color: #342b2b;
+  text-decoration: underline;
 }
-
 
 .foto-tais {
   float: left;
   margin: 0 20px 20px 0;
 }
 
-h3 {
+.subtitulo-sobremim {
   font-family: "poppins", sans-serif;
   font-weight: 800;
   color: #4e1939;
@@ -89,7 +89,7 @@ h3 {
 /* conhecimentos */
 
 .conhecimentos {
-  margin-top: 12px;
+  margin-top: 90px;
 }
 
 .tipos-conhecimentos {
@@ -105,16 +105,15 @@ h3 {
   font-family: "poppins", sans-serif;
   font-weight: 800;
   color: #342b2b;
+  text-decoration: underline;
 }
-
-
 
 .html,
 .css,
 .javascript {
   display: inline-block;
   text-align: center;
-  width: 17%;
+  width: 21%;
   vertical-align: top;
   margin: 0 1.5%;
   padding: 30px 20px;
@@ -153,6 +152,10 @@ h3 {
   margin-top: 180px;
 }
 
+.mapa {
+  width: 35%;
+}
+
 .texto-contato {
   width: 50%;
   display: flex;
@@ -178,6 +181,7 @@ h3 {
   font-weight: 800;
   margin-bottom: 44px;
   color: #342b2b;
+  text-decoration: underline;
 }
 
 .sublinhado3 {
@@ -210,4 +214,3 @@ footer {
   width: 100%;
   height: 100px;
 }
-
